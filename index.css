@@ -1,0 +1,187 @@
+	@charset "UTF-8";
+	body{
+		font-family: '微软雅黑', '文泉驿正黑', '黑体', serif;
+		font-size:12px;
+		color: #666;
+		background: #fff;
+		margin: 0;
+		padding: 0;
+	}
+	#header{
+		margin: 0 auto;
+		padding:10px 160px;
+	}
+	#header span{
+		font-size: 20px;
+		text-align: center;
+		position: relative;
+		top: -11px;	
+	}
+	#header img{
+		height: 60px;
+		width: 170px;
+	}
+	#center{
+		height: 500px;
+		background-color: gray;
+		background-image: url("web/10401.jpg");
+		background-position:50% 30%;
+		background-size: 100%,100%;
+	}
+	#login_div{
+		background-color: #fff;
+		padding: 20px;
+		width: 274px;
+		float:right;
+		margin-right: 60px;
+		margin-top: 35px;
+	}
+	#row_h3{
+		padding-bottom:5px;
+		border-bottom: 1px solid #000;
+	}
+	h3{
+		display: inline-block;
+		margin:	0;
+		padding: 0;
+		font-size: 20px;
+	}
+	#h3_1{
+		cursor: pointer;
+		margin-left: 30px;
+	}
+	#h3_2{
+		position: relative;
+	    left:50px;
+		cursor:pointer;
+		margin-right: 80px;
+	}
+	#h3_1:hover,#h3_2:hover,#h3_2:hover,#row_checkbox>a:hover{
+		color:rgb(228,57,60);
+	}
+	.row{
+		position: relative;
+		padding: 8px 0;
+	}
+	#row_username{
+		margin-top: 10px;
+	}
+	#usermsg,#pwmsg{
+		position: relative;
+		top: 5px;
+		left:7px;
+	}
+	#rg_tishi{
+		color:red;
+		position: relative;
+		top: 5px;
+		left:7px;
+		display: none;
+	}
+	/* 注册的正则验证问题 */
+		.ok{
+			color:green;
+		}
+		.error{
+			color:red;
+		}
+		/* 提示输入正误 两个注册表单的显示问题 */
+		#login{
+			display: inline;
+		}
+		#regist{
+			display: none;
+		}
+		#lg_tishi1,#lg_tishi2{
+			color:red;
+			position: relative;
+			top:5px;
+			left:7px;
+			display: none;
+		}
+	.row>input{
+		width: 232px;/***************************************/
+		height:25px;
+		margin: 0;
+		padding: 0;
+		padding:5px 20px;
+		border: 1px solid #000;
+	}
+	.row>img{
+		position: absolute;
+		top: 13px;
+		right: 22px;
+	}
+	#row_caphcha{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		padding-bottom:0px;
+	}
+	#caphcha{
+		width:101px;
+		height:10px;
+		position: relative;
+		top: -5px;
+	}
+	#row_caphcha>img{
+		position: absolute;
+		top: 4px;
+		right: 58px;
+	}
+	#caphchange{
+		margin-left: 82px;
+		color:#4CAF50;
+		cursor:pointer;
+		text-decoration: underline;
+	}
+	#row_checkbox>span{
+		position: relative;
+		top: -3px;
+	}
+	#row_checkbox>a{
+		font-size:12px;
+	 	color: #666;
+		text-decoration: none;
+		position: relative;
+		top: -3px;
+		left: 136px;
+	}
+	#submit,#submit1{
+		width: 272px;
+		height:40px;
+		border: 1px solid rgb(228,57,60);
+		background-color: rgb(228,57,60);
+		cursor: pointer;
+		border-radius: 4px;
+		color: #fff;
+		font-size:18px;
+		font-weight: bolder;
+		line-height: 20px;
+	}
+	/* footer */
+	#footer{
+		width:600px;
+		height: 60px;
+		margin: 0 auto;
+	}
+	.f_div{
+		margin-top:10px;
+		text-align:center;
+		float:left;
+		width:199px;
+		border-right: 1px solid #000;
+	}
+	#footer_div {
+		border-right: 1px solid #fff;
+	}
+	#footer div a{
+		text-decoration: none;
+		font-size: 15px;
+		color:#666;
+	}
+	#footer p{
+		margin-top:5px;
+		text-align: center;
+	}
+	
+	/*  */
